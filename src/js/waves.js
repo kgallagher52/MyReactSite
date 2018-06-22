@@ -43,12 +43,13 @@ $.reset = () => {
 	
 	$.count = Math.floor( $.w / 50 );
 	$.xoff = 0;
-	$.xinc = 0.05;	
-	$.yoff = 0;
+	$.xinc = 0.07;	
+	$.yoff = 0.05;
+	// Speed
 	$.yinc = 0.003;
 	$.goff = 0;
 	$.ginc = 0.003;
-	$.y = $.h * 0.66;
+	$.y = $.h * 0.60;
 	$.length = $.w + 10;
 	$.amp = 40;
 };
@@ -77,7 +78,7 @@ $.wave = () => {
 	$.ctx.lineTo( $.w, $.h );
 	$.ctx.lineTo( 0, $.h );
 	$.ctx.closePath();
-	$.ctx.fillStyle = 'hsla(210, 90%, 50%, 0.2)';
+	$.ctx.fillStyle = 'hsla(210, 90%, 12%, 0.5)';
 	$.ctx.fill();
 };
 

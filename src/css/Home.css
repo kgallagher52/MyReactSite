@@ -5,11 +5,15 @@ body {
 
 body {
 	background: radial-gradient( circle cover, hsl( 210, 90%, 90% ), hsl( 210, 90%, 70% ) );
-	overflow: hidden;
+    overflow: hidden;
+ 
 }
 
 canvas {
-	display: block;	
+    display: block;	
+    background-image: url('../assets/zoomed.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
