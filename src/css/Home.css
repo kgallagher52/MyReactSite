@@ -69,11 +69,11 @@ body {
 .main-title {
     position: absolute;
 	font-weight: 900;
-	font-size: 3.5em;
+	font-size: 6vw;
     opacity: 0.8;
     color: black;
     padding: 8px;
-    left: 26%;
+    left: 25%;
     bottom: 40%;
 	cursor: pointer;
 	
@@ -146,4 +146,3 @@ span a {
 	box-sizing: border-box;
 	text-align: center;
 }
-
