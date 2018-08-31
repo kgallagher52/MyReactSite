@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import '../css/Home.css';
 import '../js/waves';
 
 class Home extends Component {
     render() {
         return (
         <div className="home">
-
+            
         </div>
     )};
 };
